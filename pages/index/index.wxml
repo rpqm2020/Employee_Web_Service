@@ -1,0 +1,68 @@
+<!--index.wxml-->
+<!--<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>-->
+<!--<view> {{message}} </view>-->
+<!--<button type="primary" bindtap="bingo">跳转到日志界面</button>-->
+<!--<button type="default" bindtap="bingo1">工资查询</button>-->
+<!--<image bindtap="bindViewTap" class="userinfo-avatar" src="../../images/1.png" mode="cover"></image>-->
+<view >
+    <!--轮播图-->
+<swiper class='lunbo' indicator-dots='true' autoplay='true' interval='4000'>
+       <swiper-item> <image src='../../images/l1.png'></image> </swiper-item>
+       <swiper-item> <image src='../../images/l2.png'></image></swiper-item>
+       <swiper-item> <image src='../../images/l3.png'></image> </swiper-item>
+      </swiper>
+</view>
+<view class="flex-body">
+<view class="flex-wrp">
+       <view class="demo-text-1" bindtap='secary'>
+       <image class="demo-image-1"  src="../../images/message.png"></image>
+       <text class="demo-text-3">公告中心</text>
+       </view>
+       <view class="demo-text-1" bindtap='secary'>
+       <image class="demo-image-1"  src="../../images/manay.png"></image>
+       <text class="demo-text-3">工资信息</text>
+       </view>
+ </view>
+ <view class="flex-wrp">
+        <view class="demo-text-1" bindtap='ssss'>
+       <image class="demo-image-1"  src="../../images/search.png"></image>
+       <text class="demo-text-3">考勤信息</text>
+       </view>
+       <view class="demo-text-1" bindtap='secary'>
+       <image class="demo-image-1"  src="../../images/search.png"></image>
+       <text class="demo-text-3">加班信息</text>
+       </view>
+ </view>
+ <view class="flex-wrp">
+       <view class="demo-text-1" bindtap='secary'>
+       <image class="demo-image-1"  src="../../images/search.png"></image>
+       <text class="demo-text-3">请假信息</text>
+       </view>
+       <view class="demo-text-1" bindtap='secary'>
+       <image class="demo-image-1"  src="../../images/search.png"></image>
+       <text class="demo-text-3">年假信息</text>
+       </view>
+ </view>
+  <view class="flex-wrp">
+       <view class="demo-text-1" bindtap='secary'>
+       <image class="demo-image-1"  src="../../images/count.png"></image>
+       <text class="demo-text-3">饭卡信息</text>
+       </view>
+       <view class="demo-text-1" bindtap='secary'>
+       <image class="demo-image-1"  src="../../images/help.png"></image>
+       <text class="demo-text-3">问题反馈</text>
+       </view>
+ </view>
+ </view>
+

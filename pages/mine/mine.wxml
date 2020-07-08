@@ -1,0 +1,4 @@
+<!--pages/mine/mine.wxml-->
+<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+<button type="default" bindtap="bingo1">日志查询</button>
+<!--<button type="default" bindtap="bingo2">返回上一页</button>-->

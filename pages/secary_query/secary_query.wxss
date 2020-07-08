@@ -1,0 +1,33 @@
+/* pages/secary_query/secary_query.wxss */
+.section{
+  width: 100%;
+  height: 20px;
+  background-color: lightcyan;
+  color: rgba(0, 102, 255, 0.925);
+}
+.section__title{
+margin: 10px auto;
+width: 80%;
+height: 20px;
+/*border:1px solid rgb(24, 5, 5);*/
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+background-color: white;
+}
+.section__title .section_text1{
+width: 65%;
+height: 20px;
+color: black;
+}
+.section__title .section_text2{
+  width: 35%;
+  height: 20px;
+  text-align:right;
+  color: deepskyblue;
+  }
+page{
+  height: 100%;
+  align-items: center;
+  background-color: ghostwhite;
+}

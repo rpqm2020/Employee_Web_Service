@@ -1,0 +1,7 @@
+{ 
+  "navigationBarTitleText": "工资明细",
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#00CCFF",
+  "navigationBarTextStyle":"white",
+  "usingComponents": {}
+}

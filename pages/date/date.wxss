@@ -1,0 +1,92 @@
+/* 横向日期 */
+/*横向日期轮播图*/
+.swiper {
+  height: 58px;
+  width: 100%;
+  background: #39BF7A;
+  color: white;
+  padding: 12rpx 8rpx;
+  position: relative;
+}
+
+.swiper image {
+  height: 46px;
+  width: 46px;
+  border-radius: 6px;
+  opacity: 0.2;
+}
+.swiper-xingqi{
+  position:absolute;
+  left: 24%;
+  top: 2rpx;
+  font-size: 19rpx;
+  z-index: 5;
+}
+.swiper-day{
+  position:absolute;
+  left: 24%;
+  top: 27%;
+  font-size: 33rpx;
+}
+.swiper-price{
+  position:absolute;
+  left: 15%;
+  bottom: 5.2%;
+  font-size: 20rpx;
+}
+
+/* 当前选中星期 */
+.swiper .selZhou{
+color: black;
+}
+/* 当前选中日期 */
+.swiper .selDay{
+color: black;
+ position:absolute;
+  left: 6rpx;
+  font-size: 30rpx;
+}
+.swiper .selImg{
+opacity: 0.9;
+}
+.swiper .selPrice{
+  color: red;
+}
+
+.data-month {
+    position: absolute;
+    right: 5rpx;
+    top: 10rpx;
+}
+.data-month image{
+  width: 46px;
+  height: 46px;
+}
+
+
+/* 日期下面的广告位 */
+.date-choose_img{
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+.date-choose_img image{
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+}
+.date-choose_img view{
+position: absolute;
+top: 26%;
+left: 7%;
+  font-weight: bold;
+  font-size: 33rpx;
+}
+.date-choose_txt{
+  color: red;
+    font-size: 35rpx;
+}
+.day_price{
+  font-size: 16rpx;
+  color: rgb(255, 0, 34);
+}

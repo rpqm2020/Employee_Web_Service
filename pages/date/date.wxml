@@ -1,0 +1,9 @@
+<!-- 横向日期 -->
+      <swiper class="swiper" display-multiple-items="{{clientWidthCount}}">
+        <block wx:for="{{Dates}}" wx:key="{{item.id}}">
+          <swiper-item id="{{item.id}}" bindtap="ClickDateCheng">
+            <text class="swiper-xingqi {{dateCurrentStr==item.id?'selZhou':''}}">{{item.text}}</text>
+            <image class="{{dateCurrentStr==item.id?'selImg':''}}" src="{{bgWhiteImgUrl}}" />
+          </swiper-item>
+        </block>
+      </swiper>

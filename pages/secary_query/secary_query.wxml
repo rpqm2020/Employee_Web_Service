@@ -1,0 +1,99 @@
+<!--pages/secary_query/secary_query.wxml-->
+<!-- 横向日期 -->
+   <!--   <swiper class="swiper" display-multiple-items="{{clientWidthCount}}">
+        <block wx:for="{{Dates}}" wx:key="{{item.id}}">
+          <swiper-item id="{{item.id}}" bindtap="ClickDateCheng">
+            <text class="swiper-xingqi {{dateCurrentStr==item.id?'selZhou':''}}">{{item.text}}</text>
+            <image class="{{dateCurrentStr==item.id?'selImg':''}}" src="{{bgWhiteImgUrl}}" />
+            <text class="swiper-day {{dateCurrentStr==item.id?'selDay':''}}">{{dateCurrentStr==item.id?item.mon+'-'+item.day:item.day}}</text>
+            <text class="swiper-price {{dateCurrentStr==item.id?'selPrice':''}}">{{item.price}}</text>
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="data-month">
+        <navigator url='/pages/calendardj/index'>
+          <image src="/images/dijia.jpg"></image>
+        </navigator>
+      </view>-->
+
+<view class="section">
+  <!--<view class="section__title">日期选择:</view>-->
+  <picker mode="date" value="{{date}}" fields="month"  bindchange="bindDateChange">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view>
+<!--<block wx:for="{{data}}" data-item="{{item}}" >-->
+    <view class="section__title">
+    <text class="section_text1">工号</text>
+    <text class="section_text2">S11164</text>
+    </view>
+     <view class="section__title">
+    <text class="section_text1">姓名</text>
+    <text class="section_text2">张强</text>
+    </view>
+      <view class="section__title">
+    <text class="section_text1">工资所属月份</text>
+    <text class="section_text2">{{postdata.mts}}</text>
+    </view>
+      <view class="section__title">
+    <text class="section_text1">标准出勤</text>
+    <text class="section_text2">{{postdata.province}}</text>
+    </view>
+      <view class="section__title">
+    <text class="section_text1">绩效系数</text>
+    <text class="section_text2">{{postdata.telString}}</text>
+    </view>
+      <view class="section__title">
+    <text class="section_text1">本年度可休假天数：</text>
+    <text class="section_text2">{{postdata.areaVid}}</text>
+    </view>
+      <view class="section__title">
+    <text class="section_text1">本年度已休年假天数：</text>
+    <text class="section_text2">{{postdata.ispVid}}</text>
+    </view>
+   <view class="section__title">
+    <text class="section_text1">合计</text>
+    <text class="section_text2">{{postdata.carrier}}</text>
+    </view>
+     <button type="default" bindtap="bingo2">返回上一页</button>
+<!--</block>-->
+
+  <!--<view class="section__title">工号:1111111{{item.city}}</view>
+  <view class="section__title">姓名:李四{{item.city}}</view>
+  <view class="section__title">工资所属月份:6月{{item.city}}</view>
+  <view class="section__title">标准出勤:22{{item.city}}</view>
+  <view class="section__title">实际出勤:22{{item.city}}</view>
+  <view class="section__title">实际上班天数:{{mts1}}</view>
+  <view class="section__title">绩效系数:{{num}}</view>
+  <view class="section__title">正常工作时间工资:{{item.city}}</view>
+  <view class="section__title">职务津贴:{{item.city}}</view>
+  <view class="section__title">培训费:{{item.city}}</view>
+  <view class="section__title">保密费:{{item.city}}</view>
+  <view class="section__title">标准出勤:{{item.city}}</view>
+  <view class="section__title">加班补贴:{{item.city}}</view>
+  <view class="section__title">绩效工资:{{item.city}}</view>
+  <view class="section__title">全勤奖:{{item.city}}</view>
+  <view class="section__title">加班费:{{item.city}}</view>
+  <view class="section__title">其他:{{item.city}}</view>
+  <view class="section__title">房/伙补:{{item.city}}</view>
+  <view class="section__title">交补:{{item.city}}</view>
+  <view class="section__title">奖金:{{item.city}}</view>
+  <view class="section__title">住房公积金:{{item.city}}</view>
+  <view class="section__title">应发工资:{{item.city}}</view>
+  <view class="section__title">互助金:{{item.city}}</view>
+  <view class="section__title">重疾险:{{item.city}}</view>
+  <view class="section__title">扣款:{{item.city}}</view>
+  <view class="section__title">借款:{{item.city}}</view>
+  <view class="section__title">住宿:{{item.city}}</view>
+  <view class="section__title">水电费:{{item.city}}</view>
+  <view class="section__title">工衣:{{item.city}}</view>
+  <view class="section__title">养老保险:{{item.city}}</view>
+  <view class="section__title">医疗保险:{{item.city}}</view>
+  <view class="section__title">失业险:{{item.city}}</view>
+  <view class="section__title">住房公积金:{{item.city}}</view>
+  <view class="section__title">小计:{{item.city}}</view>
+  <view class="section__title">个人所得税:{{item.city}}</view>
+  <view class="section__title">实发工资:10元</view>-->
+

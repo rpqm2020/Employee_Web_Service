@@ -1,0 +1,60 @@
+/**index.wxss**/
+/*.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}*/
+.flex-body{
+  position:fixed; bottom:0;
+  width: 100%;
+  height: 600rpx;
+}
+.flex-body .flex-wrp{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+}
+.flex-body .flex-wrp .demo-text-1{
+  width: 50%;
+  height: 150rpx;
+  border:1px solid rgb(231, 224, 224);
+  display: flex;
+  flex-direction: row;
+}
+.flex-body .flex-wrp .demo-text-1 .demo-text-3{
+  width: 60%;
+  height: 150rpx;
+  font-size: 15px;
+  vertical-align:middle;
+  line-height: 50px;
+}
+.flex-body .flex-wrp .demo-text-1 .demo-image-1{
+  margin-top: 14px;
+  width: 30%;
+  margin-left: 20px;
+  height: 75rpx;
+  align-items:center;   
+}
+.lunbo{
+  width: 100%;
+  height:200px;
+}
+.lunbo image{
+  width: 100%;
+}
